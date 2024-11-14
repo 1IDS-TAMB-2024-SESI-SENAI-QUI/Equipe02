@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+		<html lang="pt-br">
+			<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Quiz de Química</title>
+			<link rel="stylesheet" type="text/css" href="quiz2.css">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+			<link rel="icon" type="image/x-icon" href="capp.png">
+		</head>
+		<header>
+		<nav class="cabecalho">
+			<div>
+				<img class="imagem" src="logo.jpg">
+			</div>
+			<div class="itens">
+				<br/>
+				<ul id="ul">
+					<li id="li"><a class="link" href="quimica.html"><i class="fas fa-house"></i><b> Início </b></a></li>
+					<li id="li"><a href="ácidos.html"><i class="fa-solid fa-flask"></i><b> Ácidos </b></a></li>
+					<li id="li"><a href="bases.html"><i class="fa-solid fa-flask"></i><b> Bases </b></a></li>
+					<li id="li"><a href="sais.html"><i class="fa-solid fa-flask"></i><b> Sais </b></a></li>
+					<li id="li"><a href="ph.html"><i class="fa-solid fa-flask"></i><b> pH </b></a></li>
+					<li id="li"><a href="revisão.html"><i class="fa-solid fa-book"></i><b> Revisão </b></a></li>
+					<li id="li"><a href="quiz2.html"><i class="fa-solid fa-question"></i><b> Quiz </b></a></li>
+				</ul>
+			</div>
+			<a href="https://www.youtube.com/watch?v=qEMStx7_f3U&list=PLSAteboqoJTaKhl4F7KcOUK6i46TZeCPx" target="_blank">
+				<button class="boton-elegante" id="button"><i class="fa-brands fa-youtube"></i></button>
+			</a>
+			</nav>
+		</header>
+		<div class="marginha">
+		</div><br/><br/>
+		<main>
+			<div class="card">
+			<div class="texto">
+			<br/>
+			<p id="textocentro">Agora que vc já sabe dos conceitos, vamos aplicar em um jogo?</p>
+			<br/><br/>
+  <div class="quiz-container">
+    <h1>Quiz de Perguntas</h1><br/>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. O que caracteriza uma substância ácida? </p>
+        <ul class="options">
+          <li><input type="radio" name="q1" value="A" required> Ela tem pH maior que 7</li>
+          <li><input type="radio" name="q1" value="B"> Ela tem pH igual a 7 </li>
+          <li><input type="radio" name="q1" value="C"> Ela tem pH menor que 7 </li>
+          <li><input type="radio" name="q1" value="D"> Ela é sempre em forma de gás</li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>2. Qual desses é um exemplo de base comum?</p>
+        <ul class="options">
+          <li><input type="radio" name="q2" value="A" required> Vinagre </li>
+          <li><input type="radio" name="q2" value="B"> Limão</li>
+          <li><input type="radio" name="q2" value="C"> Sabão </li>
+          <li><input type="radio" name="q2" value="D"> Coca-Cola</li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>3. O que acontece com o pH quando você adiciona um ácido a uma solução? </p>
+        <ul class="options">
+          <li><input type="radio" name="q3" value="A" required> O pH aumenta </li>
+          <li><input type="radio" name="q3" value="B"> O pH diminui </li>
+          <li><input type="radio" name="q3" value="C"> O pH não muda</li>
+          <li><input type="radio" name="q3" value="D"> O pH fica neutro </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>4. O que é um exemplo de sal?</p>
+        <ul class="options">
+          <li><input type="radio" name="q4" value="A" required> HCl </li>
+          <li><input type="radio" name="q4" value="B"> NaCl </li>
+          <li><input type="radio" name="q4" value="C"> NaOH </li>
+          <li><input type="radio" name="q4" value="D"> H₂O </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>5. O que é uma solução neutra? </p>
+        <ul class="options">
+          <li><input type="radio" name="q5" value="A" required> Quando o pH é maior que 7 </li>
+          <li><input type="radio" name="q5" value="B"> Quando o pH é menor que 7 </li>
+          <li><input type="radio" name="q5" value="C"> Quando o pH é igual a 7 </li>
+          <li><input type="radio" name="q5" value="D"> Quando não há água </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>6. O que acontece quando uma base é misturada com um ácido? </p>
+        <ul class="options">
+          <li><input type="radio" name="q6" value="A" required> Nada acontece </li>
+          <li><input type="radio" name="q6" value="B"> Forma-se água e sal </li>
+          <li><input type="radio" name="q6" value="C"> Forma-se gás </li>
+          <li><input type="radio" name="q6" value="D"> A solução fica mais ácida </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>7. Qual é o pH de uma solução de água pura? </p>
+        <ul class="options">
+          <li><input type="radio" name="q7" value="A" required> 0 </li>
+          <li><input type="radio" name="q7" value="B"> 7 </li>
+          <li><input type="radio" name="q7" value="C"> 14 </li>
+          <li><input type="radio" name="q7" value="D"> 5</li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>8. O que é o pH? </p>
+        <ul class="options">
+          <li><input type="radio" name="q8" value="A" required> Uma medida de temperatura  </li>
+          <li><input type="radio" name="q8" value="B"> Uma medida de massa  </li>
+          <li><input type="radio" name="q8" value="C"> Uma medida de acidez ou basicidade  </li>
+          <li><input type="radio" name="q8" value="D"> Uma medida de volume  </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>9. Qual destes é um exemplo de ácido comum?</p>
+        <ul class="options">
+          <li><input type="radio" name="q9" value="A" required> H₂O </li>
+          <li><input type="radio" name="q9" value="B"> NaOH </li>
+          <li><input type="radio" name="q9" value="C"> HCl </li>
+          <li><input type="radio" name="q9" value="D"> NaCl </li>
+        </ul>
+      </div>
+      <div class="question">
+        <p>10. O que é um exemplo de base forte? </p>
+        <ul class="options">
+          <li><input type="radio" name="q10" value="A" required> Água </li>
+          <li><input type="radio" name="q10" value="B"> Limão </li>
+          <li><input type="radio" name="q10" value="C"> Amônia </li>
+          <li><input type="radio" name="q10" value="D"> Hidróxido de sódio (NaOH) </li>
+        </ul>
+      </div>
+	  </div></div>
+	  <br/>
+      <button type="submit" id="submit-btn">Submeter</button>
+	  <br/>
+	  <button type="submit" id="reload-btn" onclick="window.location.reload();">Refazer</button>
+    </form><br/>
+  </div>
+	
+  <script>
+    function validar(event) {
+      event.preventDefault();
+
+      const respostasCorretas = {
+        q1: 'C', 
+        q2: 'C', 
+        q3: 'B', 
+        q4: 'B', 
+        q5: 'C',
+        q6: 'B',
+        q7: 'B',
+        q8: 'C',
+        q9: 'C', 
+        q10: 'D'
+      };
+
+      let score = 0;
+      let totalQuestions = Object.keys(respostasCorretas).length;
+
+      for (let pergunta in respostasCorretas) {
+        const respostaSelecionada = document.querySelector(`input[name="${pergunta}"]:checked`);
+        const optionsList = document.querySelectorAll(`input[name="${pergunta}"]`);
+
+        optionsList.forEach(option => {
+          const li = option.parentElement; // Obtém o <li> correspondente
+          li.classList.remove('correct', 'incorrect'); // Remove classes anteriores
+
+          if (option === respostaSelecionada) {
+            if (option.value === respostasCorretas[pergunta]) {
+              score++;
+              li.classList.add('correct'); // Adiciona classe de acerto
+            } else {
+              li.classList.add('incorrect'); // Adiciona classe de erro
+            }
+          }
+        });
+      }
+    }
+	//Enviar o quiz
+    document.getElementById('quizForm').addEventListener('submit', validar);
+  </script>
+  </div>
+</body>
+<br/><br/><br/><br/>
+	<div class="marginha">
+		</div>
+	<footer class="rodape">
+		<article>
+			<p> © Reação PHácil - Todos os direitos reservados - 2024</p>
+			<p> Siga-nos em nossas redes sociais!</p>
+			<br/>
+			<div class="footer-address">
+				<p>Rua Bela Vista, número 100</p>
+				<p>Tambaú, SP</p>
+				<br/><br/><br/>
+			</div>
+			<div class="footer-nav">
+				<a href="https://www.instagram.com/juliapuelcherribeiro/" target="_blank">Júlia Ribeiro</a>
+				<br/>
+				<a href="https://www.instagram.com/mafeh_kluiz/" target="_blank">Maria Fernanda Kiihl Luiz</a>
+				<br/>
+				<a href="">Miguel Reis</a>
+				<br/>
+				<a href="https://www.instagram.com/yasminbrandalia/" target="_blank">Yasmin Brandalia</a>
+				<br/>
+			</div>
+		</article>
+	</footer>
+</html>
